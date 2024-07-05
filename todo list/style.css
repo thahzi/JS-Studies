@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(58, 82, 82);
+}
+.box{
+    background-color: rgb(50, 119, 119);
+    width: 500px;
+    height: auto;
+}

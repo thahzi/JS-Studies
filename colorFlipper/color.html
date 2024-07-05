@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors</title>
+
+    <style>
+        #green{
+            background-color: green;
+        }
+        
+        #red{
+            background-color: red;
+        }
+        
+        #blue{
+            background-color: blue;
+        }
+
+        button{
+            border-radius: 5px;
+            margin: 5px;
+            width: 100px;
+            height: 40px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h3>color flipper</h3>
+    <button id="green" onclick="setColor('green')">green</button>
+    <button id="red " onclick="setColor('red')">red</button>
+    <button id="bue" onclick="setColor('blue')">blue</button>
+    <button onclick="randomColor()">random</button>
+</body>
+<script src="./logic.js"></script>
+</html>
